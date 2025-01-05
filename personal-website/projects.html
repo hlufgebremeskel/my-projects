@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #444;
+        }
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .project {
+            flex: 1 1 calc(45% - 20px);
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .project:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            transition: transform 0.3s;
+        }
+        .project img:hover {
+            transform: scale(1.1);
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #007BFF;
+            padding: 5px 10px;
+            border: 1px solid #007BFF;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+        }
+        .project a:hover {
+            background: #007BFF;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        @media (max-width: 768px) {
+            .project {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Projects</h1>
+        <p>My Learning Journey Through Practical Applications</p>
+    </header>
+    <section>
+        <h2>Personal Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Hotel Management System (C++)</h3>
+                <p>Developed a CLI-based application for managing hotel bookings and customer information. Implemented features such as room booking, checkout, and customer records management.</p>
+                <img src="path/to/cli-hotel-cpp.png" alt="Hotel Management System in C++">
+                <a href="https://github.com/yourusername/hotel-management-cpp" target="_blank">View Project on GitHub</a>
+            </div>
+
+            <div class="project">
+                <h3>Hotel Management System (Java)</h3>
+                <p>Built a similar system in Java as part of a classroom project. Enhanced object-oriented programming skills while working on this project.</p>
+                <img src="path/to/cli-hotel-java.png" alt="Hotel Management System in Java">
+                <a href="https://github.com/yourusername/hotel-management-java" target="_blank">View Project on GitHub</a>
+            </div>
+
+            <div class="project">
+                <h3>JavaScript Calculator</h3>
+                <p>Designed and coded a functional calculator using HTML, CSS, and JavaScript. Focused on user-friendly interface and responsive design principles.</p>
+                <img src="path/to/calculator.png" alt="JavaScript Calculator">
+                <a href="https://github.com/yourusername/javascript-calculator" target="_blank">View Project on GitHub</a>
+            </div>
+        </div>
+        
+        <h2>Group Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Collaborative Classroom Projects</h3>
+                <p>Worked with classmates on various small-scale software projects, strengthening teamwork and collaborative coding skills.</p>
+                <img src="path/to/group-project.png" alt="Group Project Example">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

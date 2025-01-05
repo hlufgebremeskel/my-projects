@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:rgba(0, 0, 0, 0.9);
+            color: #333;
+        }
+
+        header {
+            background-color: #041a1a;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Pacifico', sans-serif; /* Handwritten font */
+            font-size: 2rem;
+            margin: 0;
+            color: #000000; 
+        }
+
+        .content-wrapper {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .content {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+            text-align: justify;
+        }
+
+        .quote {
+            background-color: #e0e0e0;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 10px;
+            font-style: italic;
+            color: #666;
+            text-align: center;
+            width: 60%; /* Smaller width */
+            margin: 30px auto;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .quote:hover {
+            transform: scale(1.05);
+            background-color: #ffccbc; /* Light orange color */
+        }
+
+        .quote p {
+            font-size: 1.2rem;
+        }
+
+        .arsenal-fan {
+            background-color: #fff;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+        }
+
+        .arsenal-logo {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 20px; /* Center the logo and add space below */
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .arsenal-logo:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .arsenal-images {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .arsenal-images img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .arsenal-images img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .personal-life {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .personal-images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .personal-images img {
+            width: 250px;
+            height: 430px;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .personal-images img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .content-wrapper {
+                padding: 15px;
+            }
+            .arsenal-images, .personal-images {
+                flex-direction: column;
+                align-items: center;
+            }
+            .arsenal-images img, .personal-images img {
+                width: 80%;
+                max-width: 200px;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>About me - Hluf Gebremeskel</h1>
+    </header>
+
+    <div class="content-wrapper">
+        <section>
+            <h2 class="section-title">Introduction</h2>
+            <p class="content">
+                Hello! I’m Hluf Gebremeskel, born in August 2001 in the scenic town of Enticho, Tigray, Ethiopia. 
+                My childhood was spent in a small, tight-knit community where family, friendships, and 
+                the beauty of nature played a big role in shaping my values. 
+                Growing up, I enjoyed playing football with my friends after school and on weekends, 
+                fostering strong relationships and learning the importance of teamwork and persistence. 
+            </p>
+            <p class="content">
+                As I entered my teenage years, I discovered my passion for technology. 
+                I was captivated by the potential of computers and the vast world of possibilities they offer. 
+                This curiosity led me to pursue a degree in Software Engineering at Mekelle University. 
+                Today, I am in my third year, learning new programming languages, improving my problem-solving skills, 
+                and developing software that can have a real impact.
+            </p>
+            <p class="content">
+                I believe that coding is not just about writing lines of code but about creating solutions that can improve lives. 
+                I’m constantly challenging myself by taking on new projects and learning new technologies. 
+                For me, the journey of growth never ends. I am driven by the belief that with hard work, perseverance, and 
+                a willingness to learn, I can achieve my goals and continue to improve every day.
+            </p>
+            <div class="quote">
+                <p>"I am in competition with no one. 
+                    I run my own race. 
+                    I have no desire to play 
+                    the game of being better than anyone, 
+                    in any way, shape or form. 
+                    I just aim to improve, 
+                    to be better than I was before. T
+                    hat's me and I am free."
+                </p>
+            </div>
+        </section>
+
+        <section class="arsenal-fan">
+            <img src="assets/Arsenal_FC-logo.png" alt="Arsenal Logo" class="arsenal-logo">
+            <h2 class="section-title">Arsenal Football Club</h2>
+            <p class="content">
+                Football has always been a major part of my life. 
+                But my true passion lies in Arsenal Football Club. 
+                From their rich history to their exceptional players, 
+                I have been an Arsenal fan for as long as I can remember. 
+                The team’s resilience, passion, and relentless pursuit of greatness inspire me every day. The players, like Bukayo Saka and Martin Ødegaard, are role models, demonstrating skill, teamwork, and dedication on and off the pitch.
+            </p>
+            <div class="arsenal-images">
+                <img src = "assets/Arsenal_FC-logo2.png" alt = "arsenal's logo">
+                <img src="assets/saka.jpg" alt="Bukayo Saka" title="Bukayo Saka">
+                <img src="assets/bukayo-saka.jpg" alt="Bukayo Saka" title="Bukayo Saka">
+                <img src="assets/odegaard.jpg" alt="Martin Ødegaard" title="Martin Ødegaard">
+                <img src="assets/odegaard2.jpg" alt="Martin Ødegaard" title="Martin Ødegaard">
+                <img src = "assets/arsenal.jpg" alt = "arsenal">
+                <img src = "assets/arsenal2.webp" alt = "arsenal">
+                <img src = "assets/mens-squad.webp" alt = "arsenal">
+            </div>
+        </section>
+
+        <section class="personal-life">
+            <h2 class="section-title">Personal Life & Hobbies</h2>
+            <p class="content">
+                Outside of my academic and professional life, 
+                I enjoy activities that help me unwind and stay motivated. 
+                Football is still a big part of my life, whether I’m playing 
+                with friends or watching my favorite team, Arsenal, play. 
+                Music is another passion of mine. It allows me to relax and recharge after a long day. 
+                I also enjoy watching movies, particularly documentaries and films about technology, 
+                as they keep me inspired and focused on my goals.
+            </p>
+            <p class="content">
+                I believe in the power of continuous learning. 
+                I’m always looking for ways to improve myself, 
+                whether through new projects or by seeking advice from people who have more experience. 
+                I’m confident that with hard work and determination, 
+                I can overcome any challenges that come my way. The future is bright, 
+                and I’m excited for what lies ahead.
+            </p>
+            <div class="personal-images">
+                <img src="assets/my-image.jpg" alt="Personal Image 1" title="Personal Life">
+                <img src="assets/my-image-2.png" alt="Personal Image 2" title="Personal Life">
+                <img src ="assets/my-image-3.png" alt = "Personal Image 3" title = "Personal Life">
+                <img src ="assets/my-image-4.JPG" alt = "Personal Image 4" title = "Personal Life">
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Hluf Gebremeskel. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

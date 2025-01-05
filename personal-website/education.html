@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #444;
+        }
+        .education-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .education-item {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .education-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .education-item h3 {
+            margin-top: 0;
+            color: #007BFF;
+        }
+        .education-item p {
+            color: #555;
+        }
+        .education-item .duration {
+            font-weight: bold;
+            color: #333;
+        }
+        .education-item a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #007BFF;
+            padding: 5px 10px;
+            border: 1px solid #007BFF;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+        }
+        .education-item a:hover {
+            background: #007BFF;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .school-image {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
+        }
+        @media (max-width: 768px) {
+            .education-container {
+                padding: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Education</h1>
+        <p>My Educational Journey So Far</p>
+    </header>
+    <section>
+        <h2>My Education</h2>
+        <div class="education-container">
+            <!-- Primary Education -->
+            <div class="education-item">
+                <h3>Segalu Primary School</h3>
+                <p class="duration">Location: Enticho, Tigray, Ethiopia</p>
+                <p><strong>Grade Achievements:</strong> Top 2 out of 55 students</p>
+                <p><strong>Awards:</strong> Winner of the Question and Answer competition</p>
+                <p>I was a diligent and clever student with a strong academic performance. 
+                   I also maintained a beautiful relationship with my peers and teachers.
+                </p>
+                <img src="path/to/segalu-primary-school-image.jpg" alt="Segalu Primary School" class="school-image">
+                <a href="https://www.example.com" target="_blank">More About Segalu Primary School</a>
+            </div>
+
+            <div class="education-item">
+                <h3>Enticho Secondary School (Grade 9-10)</h3>
+                <p class="duration">Location: Enticho, Tigray, Ethiopia</p>
+                <p><strong>Achievements:</strong> Always followed teacher's instructions, 
+                    completed homework and assignments regularly.
+                </p>
+                <p>I developed a strong foundation in my secondary school years by excelling 
+                    in my studies and working hard on assignments and group projects.
+                </p>
+            
+                <img src="path/to/enticho-secondary-school-image.jpg" alt="Enticho Secondary School" class="school-image">
+                <a href="https://www.example.com" target="_blank">More About Enticho Secondary School</a>
+            </div>
+
+            <div class="education-item">
+                <h3>Enticho Preparatory School (Grade 11-12)</h3>
+                <p class="duration">Location: Enticho, Tigray, Ethiopia</p>
+                <p><strong>Achievements:</strong> Demonstrated brilliance and discipline 
+                           in all academic and extracurricular activities.
+                </p>
+                <p>During my preparatory school years, I honed my problem-solving skills, 
+                    consistently delivered high-quality assignments, and participated in numerous group works.
+                </p>
+                
+                <img src="path/to/enticho-preparatory-school-image.jpg" alt="Enticho Preparatory School" class="school-image">
+                <a href="https://www.example.com" target="_blank">More About Enticho Preparatory School</a>
+            </div>
+
+            <div class="education-item">
+                <h3>Mekelle University (2023 - Present)</h3>
+                <p class="duration">Location: Mekelle, Tigray, Ethiopia</p>
+                <p><strong>Current Status:</strong> Software Engineering Student with a GPA of 3.95</p>
+                <p>Currently, I am pursuing a Software Engineering degree at Mekelle University, 
+                    where I am gaining theoretical knowledge and practical experience in software development. 
+                    I am passionate about learning new technologies and building useful applications.
+                </p>
+                
+                <img src="path/to/mekelle-university-logo.png" alt="Mekelle University Logo" class="school-image">
+
+                <a href="https://www.mekelleuniversity.edu.et" target="_blank">More About Mekelle University</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

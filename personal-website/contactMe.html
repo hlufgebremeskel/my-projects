@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #444;
+        }
+        .contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .contact-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 150px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-align: center;
+        }
+        .contact-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .contact-item img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .contact-item a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+            transition: color 0.3s, transform 0.3s;
+        }
+        .contact-item a:hover {
+            color: #0056b3;
+            transform: translateY(-5px);
+        }
+        @media (max-width: 768px) {
+            .contact-item {
+                width: 120px;
+            }
+        }
+    </style>
+        
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <p>You can reach me through the following platforms:</p>
+    </header>
+    <section>
+        <h2>Contact Information</h2>
+        <div class="contact-container">
+            <div class="contact-item">
+                <img src="assets/email-logo.jpg" alt="Email Logo">
+                <a href="mailto:hlufenticho@gmail.com" target="_blank">Email</a>
+            </div>
+            <div class="contact-item">
+                <img src="assets/phone-logo.jpg" alt="Phone Logo">
+                <a href="tel:+251908834511" target="_blank">Phone</a>
+            </div>
+
+            <div class="contact-item">
+                <img src = "assets/facebook-logo.png" alt = "Facebook Logo">
+                <a href="https://facebook.com/hluf.gebremeskel.5" target="_blank">Facebook</a>
+            </div>
+
+            <div class="contact-item">
+                <img src="assets/tiktok-logo.webp" alt="TikTok Logo">
+                <a href="https://tiktok.com/@harmony5127" target="_blank">TikTok</a>
+            </div>
+
+            <div class="contact-item">
+                <img src="assets/instagram-logo.webp" alt="Instagram Logo">
+                <a href="https://instagram.com/hlufino" target="_blank">Instagram</a>
+            </div>
+
+            <div class="contact-item">
+                <img src="assets/telegrm-logo.webp" alt="Telegram Logo">
+                <a href="https://t.me/@hlufg" target="_blank">Telegram</a>
+            </div>
+
+            <div class="contact-item">
+                <img src="assets/github-logo.png" alt="GitHub Logo">
+                <a href="https://github.com/hlufgebremekel" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

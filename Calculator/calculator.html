@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>calculator</title>
+        <link rel="stylesheet" href="styles/calculator.css">
+    </head>
+    <body>
+        <div class = "container">
+            
+            <p class = "input-and-result"></p>
+            
+            <button class = "number-1-button" onclick = "clickButton('1'); inputElement('1'); ">1</button>
+            <button class = "number-2-button" onclick = "clickButton('2'); inputElement('2');">2</button>
+            <button class = "number-3-button" onclick = "clickButton('3'); inputElement('3');">3</button>
+            <button class = "addition-button" onclick = "clickButton('+'); inputElement('+');">+</button>
+            <button class = "number-4-button" onclick = "clickButton('4'); inputElement('4');">4</button>
+            <button class = "number-5-button" onclick = "clickButton('5'); inputElement('5');">5</button>
+            <button class = "number-6-button" onclick = "clickButton('6'); inputElement('6');">6</button>
+            <button class = "subtraction-button" onclick = "clickButton('-'); inputElement('-');">-</button>
+            <button class = "number-7-button" onclick = "clickButton('7'); inputElement('7');">7</button>
+            <button class = "number-8-button" onclick = "clickButton('8'); inputElement('8');">8</button>
+            <button class = "number-9-button" onclick = "clickButton('9'); inputElement('9');">9</button>
+            <button class = "multiplication-button" onclick = "clickButton('*'); inputElement('*');">*</button>
+            <button class = "number-0-button" onclick = "clickButton('0'); inputElement('0');">0</button>
+            <button class = "dot-button" onclick = "clickButton('.'); inputElement('.');">.</button>
+            <button class = "equal-button" onclick = "clickButton('=');">=</button>
+            <button class = "division-button" onclick = "clickButton('/'); inputElement('/');">/</button>
+            <button class = "clear-button" onclick = "clearAll();">Clear</button>
+            <div class = "unexpected-input"></div>
+        </div>
+        <script src = "scripts/calculator.js">
+        
+        </script>
+    </body>
+</html>
